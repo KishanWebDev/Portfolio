@@ -48,7 +48,7 @@ const Profile = () => {
         </p>
       </div>
       <a href={Resume} download target='_blank' className="bg-blue-600 text-white text-xl font-medium py-2 px-6 rounded-lg shadow-md hover:bg-blue-700 transition-all duration-300 transform hover:scale-105">
-        Download CV
+        Download Resume
       </a>
     </section>
   );
