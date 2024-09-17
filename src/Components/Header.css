@@ -1,0 +1,91 @@
+nav {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  nav a {
+    transition: color 0.3s;
+  }
+  
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 1s ease-in-out;
+  }
+
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .animate-fade-in {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  @keyframes zoomIn {
+    from {
+      transform: scale(0.9);
+      opacity: 0;
+    }
+    to {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+  
+  .animate-zoom-in {
+    animation: zoomIn 1s ease-in-out;
+  }
+  
+  .gradiant-text {
+    @apply bg-gradient-to-t from-blue-500 to-cyan-500 text-transparent bg-clip-text;
+    white-space: nowrap; /* Add this line */
+    overflow: hidden;
+    border-right: 2px solid #fff;
+    animation: typing-text 3s steps(1000) infinite, blink 0.5s ease infinite;
+  }
+  
+  @keyframes typing-text {
+    from {
+      width: 0;
+    }
+    to {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-right-color: transparent;
+    }
+  }
+
+
+  .fade-in {
+    opacity: 1;
+    transition: opacity 0.5s ease-in;
+  }
+  
+  .fade-out {
+    opacity: 0;
+    transition: opacity 0.5s ease-out;
+  }
+  
+  .gradient-text {
+    background: linear-gradient(90deg, rgba(255,0,150,1) 0%, rgba(0,204,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
