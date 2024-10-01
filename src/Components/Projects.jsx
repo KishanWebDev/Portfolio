@@ -87,9 +87,38 @@ import passop from "../assests/passop.jpg";
 import ecommerce from "../assests/ecommerce.jpg";
 import studysync from "../assests/studysync.jpg";
 import myntra from "../assests/myntra.jpg";
+import youtube from "../assests/youtube.jpg";
 
 function Projects() {
   const projects = [
+    {
+      title: "YouTube Backend",
+      image: youtube,
+      description: "YouTube Backend: A project that integrates YouTube functionalities with Twitter's tweet features.",
+      features: [
+        "Comprehensive user management system with registration, authentication, and profile customization.",
+        "Video hosting capabilities including upload, search, and visibility control, mirroring core YouTube functionalities.",
+        "Integrated tweet system allowing users to create, view, and manage tweets within the platform.",
+        "Robust engagement features including subscriptions, likes, comments, and playlist management.",
+        "Backend built with Node.js, Express.js, and MongoDB, with cloud-based media storage using Cloudinary."
+      ],
+      liveLink: "https://youtube-frontend-dusky.vercel.app/",
+      sourceLink: "https://github.com/KishanWebDev/Youtube-Backend",
+    },
+    {
+      title: "Myntra-Clone",
+      image: myntra,
+      description: "Myntra React Clone: E-Commerce App with React Router, Redux, and Bootstrap",
+      features: [
+        "E-Commerce application built with React Router for seamless navigation.",
+        "State management handled using Redux for efficient data flow.",
+        "Backend data fetching to display product information dynamically.",
+        "Bootstrap used for responsive and consistent styling across the application.",
+        "Smooth and user-friendly interface for a shopping experience similar to Myntra."
+      ],
+      liveLink: "https://myntra-clone-kappa-teal.vercel.app/",
+      sourceLink: "https://github.com/KishanWebDev/Myntra-Clone",
+    },
     {
       title: "PassOP",
       image: passop,
@@ -131,20 +160,7 @@ function Projects() {
       liveLink: "https://study-sync-website.vercel.app/",
       sourceLink: "https://github.com/KishanWebDev/StudySyncWebsite",
     },
-    {
-      title: "Myntra-Clone",
-      image: myntra,
-      description: "Myntra React Clone: E-Commerce App with React Router, Redux, and Bootstrap",
-      features: [
-        "E-Commerce application built with React Router for seamless navigation.",
-        "State management handled using Redux for efficient data flow.",
-        "Backend data fetching to display product information dynamically.",
-        "Bootstrap used for responsive and consistent styling across the application.",
-        "Smooth and user-friendly interface for a shopping experience similar to Myntra."
-      ],
-      liveLink: "https://myntra-clone-kappa-teal.vercel.app/",
-      sourceLink: "https://github.com/KishanWebDev/Myntra-Clone",
-    },
+
   ];
 
   return (
