@@ -144,7 +144,7 @@ function Projects() {
         "Shopping cart functionality allowing users to add, update, and remove products.",
         "Checkout process enabling secure transactions for product purchases."
       ],
-      liveLink: "https://e-commerce-website-seven-self.vercel.app/",
+      liveLink: "https://e-commerce-website-nu-gray.vercel.app/",
       sourceLink: "https://github.com/KishanWebDev/E-Commerce-Website",
     },
     {
