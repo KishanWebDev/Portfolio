@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;                                          
+
+@keyframes heart-beat {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+}
+
+.heart-beat {
+  animation: heart-beat 1.5s infinite;
+  display: inline-block;
+  color: #ff0000;
+}

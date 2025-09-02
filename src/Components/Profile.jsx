@@ -29,7 +29,7 @@ const Profile = () => {
   }, []);
 
   return (
-    <section id="profile" className="bg-gradient-to-b from-gray-900 to-gray-900 p-6 text-white flex flex-col items-center">
+    <section id="profile" className="bg-gradient-to-b from-gray-900 to-gray-900 dark:from-slate-900 dark:to-slate-950 p-6 text-white dark:text-gray-100 flex flex-col items-center">
       <div className="mb-4 text-center">
         <h1 className="text-4xl font-semibold mb-2 animate-fade-in">Kishan Rai</h1>
         <h2 className={`font-bold text-2xl md:text-4xl mt-1 gradient-text ${transitioning ? 'fade-out' : 'fade-in'}`}>

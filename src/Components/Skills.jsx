@@ -7,7 +7,7 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="py-16 px-4 md:px-8 bg-gradient-to-b from-gray-900 to-gray-900 text-white">
+    <section id="skills" className="py-16 px-4 md:px-8 bg-gradient-to-b from-gray-900 to-gray-900 dark:from-slate-900 dark:to-slate-950 text-white dark:text-gray-100">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold mb-12 text-center text-blue-300">Skills</h2>
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-6">

@@ -5,8 +5,7 @@ import { faEnvelope, faPhone, faMapMarkerAlt } from '@fortawesome/free-solid-svg
 
 const Footer = () => {
   return (
-    <footer id='contacts'
-    className="bg-gradient-to-b from-gray-900 to-gray-900 text-gray-100 p-6 text-center md:text-left">
+    <footer id='contacts' className="bg-gradient-to-b from-gray-900 to-gray-900 dark:from-slate-900 dark:to-slate-950 text-gray-100 dark:text-gray-100 p-6 text-center md:text-left">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center md:items-start">
         <div className="mb-4 md:mb-0">
           <p className="text-lg font-semibold">Contact</p>
@@ -38,7 +37,9 @@ const Footer = () => {
       </div>
       <hr className="my-4 border-gray-700" />
       <div className="text-center">
-        <p className="text-gray-400 text-sm">&copy; {new Date().getFullYear()} Developed by @kishan</p>
+        <p className="text-sm text-gray-400">
+          &copy; {new Date().getFullYear()} Made with <span className="heart-beat">❤️</span> by Kishan
+        </p>
       </div>
     </footer>
   );

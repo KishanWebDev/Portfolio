@@ -80,7 +80,7 @@ function Projects() {
   ];
 
   return (
-    <section id="projects" className="bg-gradient-to-b from-gray-900 to-gray-900 text-white py-16 px-4 md:px-8">
+    <section id="projects" className="py-16 px-4 md:px-8 bg-gradient-to-b from-gray-900 to-gray-900 dark:from-slate-900 dark:to-slate-950 text-white dark:text-gray-100">
       <h2 className="text-4xl font-bold mb-12 text-center text-blue-300">Projects</h2>
       <div className="space-y-16 max-w-6xl mx-auto">
         {projects.map((project, index) => (
