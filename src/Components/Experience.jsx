@@ -8,10 +8,11 @@ const experienceData = [
     duration: "08/2025 – Present",
     location: "Delhi, India",
     bullets: [
-      "Developing and maintaining backend APIs for a multi-vendor e-commerce platform.",
-      "Managing Hetzner VPS deployments and automation.",
-      "Implementing features like authentication and payment integration.",
-      "Working with the team to deliver scalable product features.",
+      "Developing and maintaining backend APIs for a multi-vendor e-commerce platform",
+      "Building Admin Dashboard with Email automation, Blog automation using local LLM, and scheduled workflows",
+      "Managing Hostinger VPS deployments and server automation",
+      "Implementing secure authentication, payment integration, and role-based access control",
+      "Collaborating with team to deliver scalable product features",
     ],
   },
   {
@@ -20,10 +21,10 @@ const experienceData = [
     duration: "05/2025 – 08/2025",
     location: "Delhi, India",
     bullets: [
-      "Assisted in developing a multi-vendor e-commerce platform for digital file delivery.",
-      "Built backend APIs using Node.js and Express.js.",
-      "Integrated PayPal for secure payments.",
-      "Helped deploy the project on Hetzner VPS and set up automation.",
+      "Assisted in developing multi-vendor e-commerce platform for digital file delivery",
+      "Built RESTful APIs using Node.js, Express.js, and MongoDB",
+      "Integrated PayPal payment gateway for secure transactions",
+      "Deployed application on Hostinger VPS",
     ],
   },
 ];
